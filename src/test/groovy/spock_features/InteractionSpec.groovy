@@ -19,7 +19,7 @@ class InteractionSpec extends Specification {
         String receive(String message)
     }
 
-    def "should publish message to subscribers"() {
+    def "should publish messages to subscriber"() {
         Subscriber subscriber = Mock()
         def publisher = new Publisher()
         publisher.subscribe(subscriber)

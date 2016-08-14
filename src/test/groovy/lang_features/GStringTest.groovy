@@ -7,7 +7,8 @@ class GStringTest {
     @Test
     void shouldInjectVariable() {
         def var = 10
-        assert "$var" == "10"
+        assert '$var' == '$var' // java.util.String
+        assert "$var" == "10" //GString
     }
 
     @Test
