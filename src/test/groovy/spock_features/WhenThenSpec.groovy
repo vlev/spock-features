@@ -2,7 +2,7 @@ package spock_features
 
 import spock.lang.Specification
 
-class WhenThanSpec extends Specification {
+class WhenThenSpec extends Specification {
     def "set shouldn't throw NPE"() {
         def set = new HashSet()
 
