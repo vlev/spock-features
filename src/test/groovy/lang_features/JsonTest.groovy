@@ -12,5 +12,6 @@ class JsonTest {
         assert object instanceof Map
         assert object.myList instanceof List
         assert object.myList == [4, 8, 15]
+        assert object.myList[0] == 4
     }
 }
